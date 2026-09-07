@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Gallery — DentTender Paintless Dent Repair</title>
+<meta name="description" content="Before and after pictures of recent paintless dent repair work in Calgary." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="" />
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet" />
+<link rel="icon" href="images/favicon.png" type="image/png" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<div class="topbar">
+  <div class="wrap">
+    <span class="topbar__area">Mobile service &middot; Calgary &amp; area</span>
+    <a class="is-phone" href="tel:4039660716">(403) 966-0716</a>
+    <a href="mailto:dents@denttender.com">dents@denttender.com</a>
+  </div>
+</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="index.html">
+      <img class="brand__mark" src="images/logo_gold_11.png" alt="DentTender Paintless Dent Repair Calgary" />
+      <span>
+        <span class="brand__name">DentTender</span>
+        <span class="brand__tag">Paintless Dent Repair</span>
+      </span>
+    </a>
+    <nav class="nav" aria-label="Main menu">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="about-pdr.html">About PDR</a>
+      <a href="gallery.html" aria-current="page">Gallery</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <div class="wrap">
+    <section class="gallery">
+      <h1>Gallery</h1>
+      <p class="gallery__intro">Here are some before &amp; after pictures of recent work. If you have any questions of whether or not your dent can be successfully repaired, please feel free to <a href="contact.html">contact us</a>.</p>
+      <div class="grid" id="gallery-grid"></div>
+    </section>
+  </div>
+
+  <div class="lightbox" id="lightbox" hidden>
+    <div class="lightbox__inner">
+      <div class="lightbox__head">
+        <h2 id="lightbox-title"></h2>
+        <button type="button" class="lightbox__close">Close</button>
+      </div>
+      <div class="lightbox__pair">
+        <figure>
+          <img id="lightbox-before" alt="Before repair" />
+          <figcaption>Before</figcaption>
+        </figure>
+        <figure>
+          <img id="lightbox-after" alt="After repair" />
+          <figcaption>After</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</main>
+<script src="js/gallery.js"></script>
+
+<footer class="footer">
+  <div class="wrap">
+    <div>
+      <span class="footer__name">DentTender Paintless Dent Repair</span>
+      <span class="footer__meta">Calgary, Alberta &middot; (403) 966-0716 &middot; dents@denttender.com</span>
+    </div>
+    <span class="footer__copy">&copy; 2026 DentTender Paintless Dent Repair. All Rights Reserved.</span>
+  </div>
+</footer>
+</body>
+</html>
